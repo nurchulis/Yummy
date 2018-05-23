@@ -100,17 +100,17 @@
                         <div class="collapse navbar-collapse justify-content-center" id="yummyfood-nav">
                             <ul class="navbar-nav" id="yummy-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
                                 </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <div class="dropdown-menu" aria-labelledby="yummyDropdown">
+                                <li class="nav-item">
+                                    <a class="nav-link" href=" <?php echo base_url()?>Home/Posting">Post</a>
+                                    <!-- <div class="dropdown-menu" aria-labelledby="yummyDropdown">
                                         <a class="dropdown-item" href="index.html">Home</a>
                                         <a class="dropdown-item" href="archive.html">Archive</a>
                                         <a class="dropdown-item" href="single.html">Single Blog</a>
                                         <a class="dropdown-item" href="static.html">Static Page</a>
                                         <a class="dropdown-item" href="contact.html">Contact</a>
-                                    </div>
+                                    </div> -->
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">Features</a>
