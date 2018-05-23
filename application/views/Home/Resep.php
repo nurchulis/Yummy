@@ -1,5 +1,3 @@
-
-
     <!-- ****** Breadcumb Area Start ****** -->
     <div class="breadcumb-area" style="background-image: url(<?php echo base_url() ?>Assets/img/bg-img/breadcumb.jpg);">
         <div class="container h-100">
