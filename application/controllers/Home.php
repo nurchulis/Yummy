@@ -22,7 +22,7 @@ class Home extends CI_Controller {
 	{
 		$this->load->view('Home/Header');
 
-  		$this->load->view('Home/'.$page,$data);
+  		$this->load->view('Home/'.$page);
 
     		$this->load->view('Home/Footer');
 	}
