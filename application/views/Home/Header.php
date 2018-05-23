@@ -87,7 +87,7 @@
                 <!-- Logo Area Start -->
                 <div class="col-12">
                     <div class="logo_area text-center">
-                        <a href="index.html" class="yummy-logo">Ueenakk Blog</a>
+                        <a href="index.html" class="yummy-logo">Ueenakk Blog1</a>
                     </div>
                 </div>
             </div>
