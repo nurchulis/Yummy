@@ -10,8 +10,12 @@ class Home extends CI_Controller {
 
 	public function index($page='Home_tengah',$id= null)
 	{
-
+		//Mengambil Data Posting Dari M_data fungsi tampil_posting
     $data['tampil_posting'] = $this->M_data->tampil_posting();
+
+		//Mengambil Data Slider Dari M_data Fungsi tampil_slider
+		$data['tampil_slider'] = $this->M_data->tampil_slider();
+
 		$this->load->view('Home/Header');
 
   		$this->load->view('Home/'.$page,$data);

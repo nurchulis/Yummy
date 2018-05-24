@@ -2,85 +2,24 @@
 <!-- ****** Welcome Post Area Start ****** -->
 <section class="welcome-post-sliders owl-carousel">
 
+<?php foreach ($tampil_slider as $tampil) {
+  ?>
     <!-- Single Slide -->
     <div class="welcome-single-slide">
         <!-- Post Thumb -->
-        <img src="<?php echo base_url() ?>Assets/img/bg-img/slide-1.jpg" alt="">
+        <img src="<?php echo base_url() ?>Assets/img/bg-img/<?php echo $tampil->gambar ?>" alt="" id="slider_home">
         <!-- Overlay Text -->
         <div class="project_title">
             <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-            </div>
-            <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-            </a>
-        </div>
-    </div>
+                <a href="#"><?php echo $tampil->tanggal ?></a>
 
-    <!-- Single Slide -->
-    <div class="welcome-single-slide">
-        <!-- Post Thumb -->
-        <img src="<?php echo base_url() ?>Assets/img/bg-img/slide-2.jpg" alt="">
-        <!-- Overlay Text -->
-        <div class="project_title">
-            <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
             </div>
             <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
+                <h5><?php echo $tampil->judul ?></h5>
             </a>
         </div>
     </div>
-
-    <!-- Single Slide -->
-    <div class="welcome-single-slide">
-        <!-- Post Thumb -->
-        <img src="<?php echo base_url() ?>Assets/img/bg-img/slide-3.jpg" alt="">
-        <!-- Overlay Text -->
-        <div class="project_title">
-            <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-            </div>
-            <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-            </a>
-        </div>
-    </div>
-
-    <!-- Single Slide -->
-    <div class="welcome-single-slide">
-        <!-- Post Thumb -->
-        <img src="<?php echo base_url() ?>Assets/img/bg-img/slide-4.jpg" alt="">
-        <!-- Overlay Text -->
-        <div class="project_title">
-            <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-            </div>
-            <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-            </a>
-        </div>
-    </div>
-
-    <!-- Single Slide -->
-    <div class="welcome-single-slide">
-        <!-- Post Thumb -->
-        <img src="<?php echo base_url() ?>Assets/img/bg-img/slide-4.jpg" alt="">
-        <!-- Overlay Text -->
-        <div class="project_title">
-            <div class="post-date-commnents d-flex">
-                <a href="#">May 19, 2017</a>
-                <a href="#">5 Comment</a>
-            </div>
-            <a href="#">
-                <h5>“I’ve Come and I’m Gone”: A Tribute to Istanbul’s Street</h5>
-            </a>
-        </div>
-    </div>
+<?php } ?>
 
 </section>
 <!-- ****** Welcome Area End ****** -->
@@ -615,7 +554,7 @@
                                 <p>Tuesday, October 3, 2017</p>
                             </div>
                         </div>
-                    </div>              
+                    </div>
                 </div>
             </div>
         </div>
