@@ -10,7 +10,7 @@
             <div class="yummy-table">
                 <div class="yummy-table-cell">
                     <div class="follow-me text-center">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                        <a href="https://www.instagram.com/"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
                     </div>
                 </div>
             </div>
@@ -26,7 +26,7 @@
             <div class="yummy-table">
                 <div class="yummy-table-cell">
                     <div class="follow-me text-center">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                        <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
                     </div>
                 </div>
             </div>
@@ -42,7 +42,7 @@
             <div class="yummy-table">
                 <div class="yummy-table-cell">
                     <div class="follow-me text-center">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                        <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
                     </div>
                 </div>
             </div>
@@ -58,7 +58,7 @@
             <div class="yummy-table">
                 <div class="yummy-table-cell">
                     <div class="follow-me text-center">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                        <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
                     </div>
                 </div>
             </div>
@@ -74,7 +74,7 @@
             <div class="yummy-table">
                 <div class="yummy-table-cell">
                     <div class="follow-me text-center">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                        <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
                     </div>
                 </div>
             </div>
@@ -90,7 +90,7 @@
             <div class="yummy-table">
                 <div class="yummy-table-cell">
                     <div class="follow-me text-center">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                        <!-- 1 -->
                     </div>
                 </div>
             </div>
@@ -106,7 +106,7 @@
             <div class="yummy-table">
                 <div class="yummy-table-cell">
                     <div class="follow-me text-center">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                        <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
                     </div>
                 </div>
             </div>
@@ -122,7 +122,7 @@
             <div class="yummy-table">
                 <div class="yummy-table-cell">
                     <div class="follow-me text-center">
-                        <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
+                        <a href="www.instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i> Follow me</a>
                     </div>
                 </div>
             </div>
