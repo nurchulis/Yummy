@@ -9,7 +9,7 @@
     <!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
     <!-- Title -->
-    <title>Ueenakk Blog - Food Blog Template</title>
+    <title> Uuwenaakk Blog - Food Blog Template</title>
 
     <!-- Favicon -->
     <link rel="icon" href="<?php echo base_url() ?>Assets/img/core-img/favicon.ico">
@@ -40,7 +40,7 @@
                 <!-- Logo Area Start -->
                 <div class="col-12">
                     <div class="logo_area text-center">
-                        <a href="index.html" class="yummy-logo"> ~ Ueenakk Blog ~ </a>
+                        <a href="index.html" class="yummy-logo">  Uuwenaakk Blog </a>
                     </div>
                 </div>
             </div>
