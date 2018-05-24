@@ -53,7 +53,7 @@
                     <img src="<?php echo base_url() ?>Assets/img/catagory-img/3.jpg" alt="">
                     <div class="catagory-title">
                         <a href="#">
-                            <h5>Life Style</h5>
+                            <h5>Mimikan Recommended</h5>
                         </a>
                     </div>
                 </div>
