@@ -18,12 +18,12 @@ class Admin extends CI_Controller {
 	 * map to /index.php/welcome/<method_name>
 	 * @see https://codeigniter.com/user_guide/general/urls.html
 	 */
-	public function index($page='konten',$id= null)
+	public function index($page='Konten',$id= null)
 	{
 		$this->load->view('Admin/Header');
 
   		$this->load->view('Admin/'.$page);
 
-    		// $this->load->view('Admin/Footer');
+    	// $this->load->view('Admin/Footer');
 	}
 }
