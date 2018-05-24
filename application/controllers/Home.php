@@ -16,6 +16,14 @@ class Home extends CI_Controller {
 		//Mengambil Data Slider Dari M_data Fungsi tampil_slider
 		$data['tampil_slider'] = $this->M_data->tampil_slider();
 
+		//Menampilkan Data Posting Pada Home Di limit 10
+		$data['tampil_posting_home'] = $this->M_data->tampil_posting_home();
+
+		//Menampilkan Data Posting Paling Populer Di limit 6
+		$data['tampil_posting_populer'] = $this->M_data->tampil_posting_populer();
+
+
+
 		$this->load->view('Home/Header');
 
   		$this->load->view('Home/'.$page,$data);

@@ -10,6 +10,17 @@ class M_data extends CI_Model{
     		$hasil=$this->db->get('slider');
     		return $hasil->result();
     	}
+    function tampil_posting_home(){
+        $this->db->limit(10);
+    		$hasil=$this->db->get('artikel');
+    		return $hasil->result();
+      	}
+    function tampil_posting_populer(){
+        $this->db->limit(6);
+        $this->db->order_by('suka','DESC');
+    		$hasil=$this->db->get('artikel');
+    		return $hasil->result();
+          	}
 
 }
 
