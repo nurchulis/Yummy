@@ -40,7 +40,7 @@
                 <!-- Logo Area Start -->
                 <div class="col-12">
                     <div class="logo_area text-center">
-                        <a href="index.html" class="yummy-logo">Ueenakk Blog</a>
+                        <a href="index.html" class="yummy-logo"> ~ Ueenakk Blog ~ </a>
                     </div>
                 </div>
             </div>
@@ -65,7 +65,7 @@
                                     <a class="nav-link" href="<?php echo base_url()?>Home/Galeri">Galeri</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
+                                    <a class="nav-link" href="<?php echo base_url()?>Home/About">About</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="<?php echo base_url()?>Home/Contact">Contact</a>
