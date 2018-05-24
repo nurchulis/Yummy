@@ -13,6 +13,9 @@ class Home extends CI_Controller {
 		//Mengambil Data Posting Dari M_data fungsi tampil_posting
     $data['tampil_posting'] = $this->M_data->tampil_posting(); //--->Digunakan Di Home/Posting.php
 
+			//Mengambil Data Resep Dari M_data fungsi tampil_posting
+	    $data['tampil_resep'] = $this->M_data->tampil_resep(); //--->Digunakan Di Home/Resep.php
+
 		//Mengambil Data Slider Dari M_data Fungsi tampil_slider
 		$data['tampil_slider'] = $this->M_data->tampil_slider(); //--->Digunakan Di Home/Home_tengah.php
 
@@ -24,6 +27,9 @@ class Home extends CI_Controller {
 
 		//menampilkan Data Posting Per id diambil dari url
 		$data['tampil_posting_per_id'] = $this->M_data->tampil_posting_per_id($id); //------>Digunakan DI Home/Plih_posting.php
+
+		//menampilkan Data Resep Per id diambil dari url
+		$data['tampil_resep_per_id'] = $this->M_data->tampil_resep_per_id($id); //------>Digunakan DI Home/Plih_resep.php
 
 
 		$this->load->view('Home/Header');

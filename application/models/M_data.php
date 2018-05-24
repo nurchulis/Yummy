@@ -6,6 +6,10 @@ class M_data extends CI_Model{
   		$hasil=$this->db->get('artikel');
   		return $hasil->result();
   	}
+    function tampil_resep(){
+    		$hasil=$this->db->get('resep');
+    		return $hasil->result();
+    	}
     function tampil_slider(){
     		$hasil=$this->db->get('slider');
     		return $hasil->result();
@@ -24,6 +28,12 @@ class M_data extends CI_Model{
     function tampil_posting_per_id($id){
       $this->db->where('id_artikel',$id);
       $hasil=$this->db->get('artikel');
+      return $hasil->result();
+    }
+
+    function tampil_resep_per_id($id){
+      $this->db->where('id_resep',$id);
+      $hasil=$this->db->get('resep');
       return $hasil->result();
     }
 
