@@ -41,16 +41,10 @@
         <nav class="navbar navbar-default navbar-static-top m-b-0">
             <div class="navbar-header"> <a class="navbar-toggle hidden-sm hidden-md hidden-lg " href="javascript:void(0)" data-toggle="collapse" data-target=".navbar-collapse"><i class="fa fa-bars"></i></a>
                 <div class="top-left-part"><a class="logo" href="index.html"><b><img src="<?php echo base_url() ?>Assets/plugins/images/pixeladmin-logo.png" alt="home" /></b><span class="hidden-xs"><img src="<?php echo base_url() ?>Assets/plugins/images/pixeladmin-text.png" alt="home" /></span></a></div>
-                <ul class="nav navbar-top-links navbar-left m-l-20 hidden-xs">
-                    <li>
-                        <form role="search" class="app-search hidden-xs">
-                            <input type="text" placeholder="Search..." class="form-control"> <a href=""><i class="fa fa-search"></i></a>
-                        </form>
-                    </li>
-                </ul>
+
                 <ul class="nav navbar-top-links navbar-right pull-right">
                     <li>
-                        <a class="profile-pic" href="#"> <b class="hidden-xs">Steave</b> </a>
+                        <a class="profile-pic" href="#"> <b class="hidden-xs">Admin</b> </a>
                     </li>
                 </ul>
             </div>
@@ -63,16 +57,19 @@
             <div class="sidebar-nav navbar-collapse slimscrollsidebar">
                 <ul class="nav" id="side-menu">
                     <li style="padding: 10px 0 0;">
-                        <a href="index.html" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i><span class="hide-menu">Dashboard</span></a>
+                        <a href="<?php echo base_url(); ?>/Admin" class="waves-effect"><i class="fa fa-clock-o fa-fw" aria-hidden="true"></i><span class="hide-menu">Dashboard</span></a>
                     </li>
                     <li>
-                        <a href="profile.html" class="waves-effect"><i class="fa fa-user fa-fw" aria-hidden="true"></i><span class="hide-menu">Buat Posting</span></a>
+                        <a href="<?php echo base_url(); ?>/Admin/Buat_posting" class="waves-effect"><i class="fa fa-user fa-fw" aria-hidden="true"></i><span class="hide-menu">Buat Posting</span></a>
                     </li>
                     <li>
-                        <a href="basic-table.html" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i><span class="hide-menu">Buat Resep</span></a>
+                        <a href="<?php echo base_url(); ?>/Admin/Buat_resep" class="waves-effect"><i class="fa fa-table fa-fw" aria-hidden="true"></i><span class="hide-menu">Buat Resep</span></a>
                     </li>
                     <li>
-                        <a href="fontawesome.html" class="waves-effect"><i class="fa fa-font fa-fw" aria-hidden="true"></i><span class="hide-menu">Gallery</span></a>
+                        <a href="<?php echo base_url(); ?>/Admin/Buat_gallery" class="waves-effect"><i class="fa fa-font fa-fw" aria-hidden="true"></i><span class="hide-menu">Gallery</span></a>
+                    </li>
+                    <li>
+                        <a href="<?php echo base_url(); ?>/Admin/User" class="waves-effect"><i class="fa fa-font fa-fw" aria-hidden="true"></i><span class="hide-menu">Pengaturan User</span></a>
                     </li>
 
                 </ul>
