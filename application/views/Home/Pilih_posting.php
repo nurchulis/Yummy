@@ -87,7 +87,7 @@
                                     <a href="#">
                                         <h2 class="post-headline"><?php echo $tampil->judul ?></h2>
                                     </a>
-                                    <p>sa</p>
+                                    <p><?php echo $tampil->isi ?></p>
 
 
                                 </div>
