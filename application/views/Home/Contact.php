@@ -1,120 +1,6 @@
 
-<body>
-    <!-- Preloader Start -->
-    <div id="preloader">
-        <div class="yummy-load"></div>
-    </div>
-
-    <!-- Background Pattern Swither -->
-    <div id="pattern-switcher">
-        Bg Pattern
-    </div>
-    <div id="patter-close">
-        <i class="fa fa-times" aria-hidden="true"></i>
-    </div>
-
-    <!-- ****** Top Header Area Start ****** -->
-    <div class="top_header_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-5 col-sm-6">
-                    <!--  Top Social bar start -->
-                    <div class="top_social_bar">
-                        <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-skype" aria-hidden="true"></i></a>
-                        <a href="#"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
-                    </div>
-                </div>
-                <!--  Login Register Area -->
-                <div class="col-7 col-sm-6">
-                    <div class="signup-search-area d-flex align-items-center justify-content-end">
-                        <div class="login_register_area d-flex">
-                            <div class="login">
-                                <a href="register.html">Sing in</a>
-                            </div>
-                            <div class="register">
-                                <a href="register.html">Sing up</a>
-                            </div>
-                        </div>
-                        <!-- Search Button Area -->
-                        <div class="search_button">
-                            <a class="searchBtn" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
-                        </div>
-                        <!-- Search Form -->
-                        <div class="search-hidden-form">
-                            <form action="#" method="get">
-                                <input type="search" name="search" id="search-anything" placeholder="Search Anything...">
-                                <input type="submit" value="" class="d-none">
-                                <span class="searchBtn"><i class="fa fa-times" aria-hidden="true"></i></span>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- ****** Top Header Area End ****** -->
-
-    <!-- ****** Header Area Start ****** -->
-    <header class="header_area">
-        <div class="container">
-            <div class="row">
-                <!-- Logo Area Start -->
-                <div class="col-12">
-                    <div class="logo_area text-center">
-                        <a href="index.html" class="yummy-logo">Yummy Blog</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-12">
-                    <nav class="navbar navbar-expand-lg">
-                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#yummyfood-nav" aria-controls="yummyfood-nav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i> Menu</button>
-                        <!-- Menu Area Start -->
-                        <div class="collapse navbar-collapse justify-content-center" id="yummyfood-nav">
-                            <ul class="navbar-nav" id="yummy-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="yummyDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pages</a>
-                                    <div class="dropdown-menu" aria-labelledby="yummyDropdown">
-                                        <a class="dropdown-item" href="index.html">Home</a>
-                                        <a class="dropdown-item" href="archive.html">Archive</a>
-                                        <a class="dropdown-item" href="single.html">Single Blog</a>
-                                        <a class="dropdown-item" href="static.html">Static Page</a>
-                                        <a class="dropdown-item" href="contact.html">Contact</a>
-                                    </div>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Features</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Categories</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="archive.html">Archive</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item active">
-                                    <a class="nav-link" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </nav>
-                </div>
-            </div>
-        </div>
-    </header>
-    <!-- ****** Header Area End ****** -->
-
     <!-- ****** Breadcumb Area Start ****** -->
-    <div class="breadcumb-area" style="background-image: url(img/bg-img/breadcumb.jpg);">
+    <div class="breadcumb-area" style="background-image: url(<?php echo base_url()?>/assets/img/bg-img/breadcumb.jpg);">
         <div class="container h-100">
             <div class="row h-100 align-items-center">
                 <div class="col-12">
@@ -147,7 +33,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="google-map-area">
-                        <div id="googleMap"></div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3953.046507027447!2d110.39235631477811!3d-7.78489414438967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a59db2dacb069%3A0x7f35156a4aeb645a!2sUIN+Sunan+Kalijaga+Yogyakarta!5e0!3m2!1sen!2sid!4v1527144505564" width="1150" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -158,22 +44,24 @@
                     <!-- Single Contact Info -->
                     <div class="col-12 col-md-4">
                         <div class="single-contact-info mb-30 text-center wow fadeInUp" data-wow-delay="0.3s">
-                            <h4>France</h4>
-                            <p>40 Baria Sreet 133/2 NewYork City, US <br> Email: info.contact@gmail.com <br> Phone: 123-456-7890</p>
+                            <h4>Pacitan</h4>
+                            <p>Jl. Pacitan-Lorok, Km. 31, Ngadirojo, Pacitan, Jawa Timur <br> Email: yayangtw@gmail.com <br> Phone: 081235888567</p>
                         </div>
                     </div>
+
                     <!-- Single Contact Info -->
                     <div class="col-12 col-md-4">
                         <div class="single-contact-info mb-30 text-center wow fadeInUp" data-wow-delay="0.6s">
-                            <h4>United States</h4>
-                            <p>40 Baria Sreet 133/2 NewYork City, US <br> Email: info.contact@gmail.com <br> Phone: 123-456-7890</p>
+                            <h4>   </h4>
+                            <p> <br>  <br> </p>
                         </div>
                     </div>
+
                     <!-- Single Contact Info -->
                     <div class="col-12 col-md-4">
-                        <div class="single-contact-info mb-30 text-center wow fadeInUp" data-wow-delay="0.9s">
-                            <h4>Viet Nam</h4>
-                            <p>40 Baria Sreet 133/2 NewYork City, US <br> Email: info.contact@gmail.com <br> Phone: 123-456-7890</p>
+                        <div class="single-contact-info mb-30 text-center wow fadeInUp" data-wow-delay="0.6s">
+                            <h4>Daerah Istimewa Yogyakrta</h4>
+                            <p>UIN Sunan Kalijaga<br> Email: 16650049@student.uin-suka.ac.id <br> Phone: 081235888567</p>
                         </div>
                     </div>
                 </div>
@@ -182,10 +70,7 @@
             <!-- Contact Form  -->
             <div class="contact-form-area">
                 <div class="row">
-                    <div class="col-12 col-md-5">
-                        <div class="contact-form-sidebar item wow fadeInUpBig" data-wow-delay="0.3s" style="background-image: url(img/bg-img/contact.jpg);">
-                        </div>
-                    </div>
+                    
                     <div class="col-12 col-md-7 item">
                         <div class="contact-form wow fadeInUpBig" data-wow-delay="0.6s">
                             <h2 class="contact-form-title mb-30">If You Have Any Question Contact Me Today !</h2>
@@ -380,61 +265,7 @@
             </div>
         </div>
     </div>
-    <!-- ****** Footer Social Icon Area End ****** -->
-
-    <!-- ****** Footer Menu Area Start ****** -->
-    <footer class="footer_area">
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <div class="footer-content">
-                        <!-- Logo Area Start -->
-                        <div class="footer-logo-area text-center">
-                            <a href="index.html" class="yummy-logo">Yummy Blog</a>
-                        </div>
-                        <!-- Menu Area Start -->
-                        <nav class="navbar navbar-expand-lg">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#yummyfood-footer-nav" aria-controls="yummyfood-footer-nav" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars" aria-hidden="true"></i> Menu</button>
-                            <!-- Menu Area Start -->
-                            <div class="collapse navbar-collapse justify-content-center" id="yummyfood-footer-nav">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Features</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Categories</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Archive</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">About</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="#">Contact</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <!-- Copywrite Text -->
-                    <div class="copy_right_text text-center">
-                        <p>Copyright @2018 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    <!-- ****** Footer Social Icon Area End **** -->
     <!-- ****** Footer Menu Area End ****** -->
 
     <!-- Jquery-2.2.4 js -->

@@ -141,24 +141,24 @@
                     <div class="single-icon">
                         <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i><span>facebook</span></a>
                     </div>
-                    <div class="single-icon">
+                   <!--  <div class="single-icon">
                         <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twitter</span></a>
-                    </div>
+                    </div> -->
                     <div class="single-icon">
                         <a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i><span>GOOGLE+</span></a>
                     </div>
-                    <div class="single-icon">
+                    <!-- <div class="single-icon">
                         <a href="#"><i class="fa fa-linkedin-square" aria-hidden="true"></i><span>linkedin</span></a>
-                    </div>
+                    </div> -->
                     <div class="single-icon">
                         <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
                     </div>
-                    <div class="single-icon">
+                   <!--  <div class="single-icon">
                         <a href="#"><i class="fa fa-vimeo" aria-hidden="true"></i><span>VIMEO</span></a>
-                    </div>
-                    <div class="single-icon">
+                    </div> -->
+                    <!-- <div class="single-icon">
                         <a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i><span>YOUTUBE</span></a>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
@@ -174,7 +174,7 @@
                 <div class="footer-content">
                     <!-- Logo Area Start -->
                     <div class="footer-logo-area text-center">
-                        <a href="index.html" class="yummy-logo">Yummy Blog</a>
+                        <a href="index.html" class="yummy-logo">Ueenakk Blog</a>
                     </div>
                     <!-- Menu Area Start -->
                     <nav class="navbar navbar-expand-lg">
@@ -183,22 +183,20 @@
                         <div class="collapse navbar-collapse justify-content-center" id="yummyfood-footer-nav">
                             <ul class="navbar-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                     <li class="nav-item">
+                                    <a class="nav-link" href=" <?php echo base_url()?>Home/Posting">Post</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Features</a>
+                                    <a class="nav-link" href="<?php echo base_url()?>Home/Resep">Resep Makanan</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Categories</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Archive</a>
+                                    <a class="nav-link" href="<?php echo base_url()?>Home/Galeri">Galeri</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="#">About</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="Contact.php">Contact</a>
                                 </li>
                             </ul>
                         </div>
@@ -213,7 +211,7 @@
             <div class="col-12">
                 <!-- Copywrite Text -->
                 <div class="copy_right_text text-center">
-                    <p>Copyright @2018 All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+                    <p>Copyright @Yayang Wijaya| This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
                 </div>
             </div>
         </div>
