@@ -99,7 +99,7 @@
                                     <!-- Post Comment & Share Area -->
 
                                 </div>
-                                <a href="#">
+                                <a href="<?php echo base_url() ?>Home/Pilih_posting/<?php echo $tampil->id_artikel ?>">
                                     <h4 class="post-headline"><?php echo $tampil->judul ?></h4>
                                 </a>
                             </div>

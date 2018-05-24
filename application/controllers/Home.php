@@ -22,6 +22,8 @@ class Home extends CI_Controller {
 		//Menampilkan Data Posting Paling Populer Di limit 6
 		$data['tampil_posting_populer'] = $this->M_data->tampil_posting_populer(); //--->Digunakan Di Home/Home_tengah.php
 
+		//menampilkan Data Posting Per id diambil dari url
+		$data['tampil_posting_per_id'] = $this->M_data->tampil_posting_per_id($id); //------>Digunakan DI Home/Plih_posting.php
 
 
 		$this->load->view('Home/Header');

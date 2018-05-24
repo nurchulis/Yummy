@@ -21,6 +21,11 @@ class M_data extends CI_Model{
     		$hasil=$this->db->get('artikel');
     		return $hasil->result();
           	}
+    function tampil_posting_per_id($id){
+      $this->db->where('id_artikel',$id);
+      $hasil=$this->db->get('artikel');
+      return $hasil->result();
+    }
 
 }
 

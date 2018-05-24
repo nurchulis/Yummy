@@ -30,7 +30,7 @@
 
 
     <!-- ****** Top Header Area Start ****** -->
-  
+
     <!-- ****** Top Header Area End ****** -->
 
     <!-- ****** Header Area Start ****** -->
@@ -53,7 +53,7 @@
                         <div class="collapse navbar-collapse justify-content-center" id="yummyfood-nav">
                             <ul class="navbar-nav" id="yummy-nav">
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="<?php echo base_url() ?>">Home <span class="sr-only">(current)</span></a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href=" <?php echo base_url()?>Home/Posting">Post</a>
